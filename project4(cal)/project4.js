@@ -27,6 +27,12 @@ buttons.forEach(buttons => {
             display.value = String;
 
         }
+
+        else if(String == '' && check == '+' || String == '' && check == '-' || String == '' && check == '*' || String == '' && check == '/' || String == '' && check == '%')
+        {
+            alert("Invalid formate!");
+        }
+                 
         else {
 
             String += check;    
