@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image:url(proj4Img/background.avif);
+    background-size: cover;
+}
+
+#container{
+    height: 537px;
+    width: 382px;
+    border: 6px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px black;
+    background-image: url(proj4Img/edge.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column
+}
+
+#display{
+    height: 70px;
+    width: 350px;
+    margin: 4%;
+    font-size: 30px;
+    color: #000814;
+    text-align: left;
+    border-radius: 11px;
+    background-color: #ffffff;
+    background-size: cover;
+}
+
+#display:hover{
+    background-color: #e0fbfc;
+    box-shadow: 3px 3px 2px #ffffff;
+}
+
+
+
+#numbers{
+    height: 360px;
+    width: 265px;
+    padding: 3%;
+    gap: 5px;
+    
+}
+#ans{
+    height: 55px;
+    width: 347px;
+    margin-top: 16px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 2px #ffffff;
+    border: 1px solid #ffffff
+}
+#ans:hover{
+    background-color: #e0fbfc;
+}
+
+#operators{
+    height:380px;
+    width: 78px;
+    display: flex;
+    font-size: larger;
+    flex-direction: column;
+    align-items:end;
+    margin-top: 5px;
+    
+}
+
+
+
+.btn{
+    height: 432px;
+    background-image: url(proj4Img/background2.avif);
+    background-size: cover;
+    border-radius: 5px;
+    display: flex;
+    border: 1px solid gray;
+    
+}
+
+#buttonsN{
+    height: 60px;
+    width: 80px;
+    font-size: larger;
+    padding: 7px;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-left: 5px;
+    background-color: #e0fbfc;
+    box-shadow: 3px 3px 4px #ffffff;
+    border: 1px solid #ffffff
+}
+
+#buttonsN:hover{
+    background-color: #fffcf2;
+}
+
+#buttonsO{
+    height: 50px;
+    width: 76px;
+    font-size: larger;
+    border: 2px solid white;
+    border-radius: 50px;
+    box-shadow: 2px 4px 2px #ffffff;
+    padding: 1px;
+    margin-top: 8px;
+}
+
+#buttonsO:hover{
+    background-color: #e0fbfc;
+}
