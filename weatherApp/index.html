@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+    <link rel="stylesheet" href="/src/output.css">
+</head>
+<body class="min-h-screen min-w-screen flex
+    items-center justify-center bg-[url(/weatherApp/img/mount.jpg)] 
+    bg-cover bg-center">
+    
+    <div class="container md:h-[29vh] md:w-[30vw] h-[38vh] w-[80vw] 
+    sm:h-[34vh] sm:w-[80vh] 
+      rounded-3xl bg-amber-48 backdrop-blur-3xl md:border-2
+       border-white   shadow-lg shadow-cyan-500/50 ...
+     inset-shadow-sm inset-shadow-black-500...">
+
+      <h1 class="text-4xl text-center font-semibold
+      bg-[url(/images/water1.jpg)] bg-cover bg-center
+      bg-clip-text text-transparent">WeatherApp</h1>
+     
+        <div class="inp-sect md:h-[10vh] md:w-[30vw] mt-6
+            flex items-center gap-1.5 ">
+            <input type="text" placeholder="Enter city name" 
+            class="md:h-13 md:w-[20vw] w-[45vw] border-2 border-slate-800 
+             p-1 md:m-1.5 m-1 text-2xl rounded ">
+           
+             <button class="searchbtn text-2xl  md:p-2  p-1 
+             text-amber-50   cursor-pointer
+            rounded-2xl bg-indigo-600">Search</button>
+
+        </div>
+             
+                <div class="content md:h-[30vh] md:w-[30vw]
+                         flex items-center gap-10  md:mt-3 mt-8
+                            bg-[url(/images/tomato.jpg)] bg-cover 
+                            bg-clip-text text-transparent hidden">
+
+
+                        <div class="city-tem">
+                            <h1 class="tempr text-6xl text-amber-50 m-2.5
+                            ">20℃</h1>
+                            
+                            <h1 class="city text-4xl m-2.5 font-semibold
+                            ">delhi</h1>
+                        </div>
+                    
+                            <div class="w-img md:h-[20vh] md:w-[15vw]  bg-cover bg-center">
+                                <img src="/weatherApp/img/images/clear.png" class="weatherIcon
+                                md:absolute  md:top-30 md:left-45 ">
+                        
+
+                            </div>
+                    
+                </div>
+                      <div class="bottom md:h-[17vh] md:w-[30vw] flex
+                             gap-22 md:mt-1 mt-10 text-amber-50 hidden">
+                            <div class="windCont flex flex-col ml-2 ">
+                                <div class="wind h-14 w-14  
+                                    bg-[url(/weatherApp/img/images/wind.png)] 
+                                    bg-cover bg-center">
+                            
+                                 </div>
+                                <h1 class="windHead text-2xl">Wind 10km/h</h1>
+                            </div> 
+                        
+                            <div class="humidCont flex flex-col">
+                                <div class="humidity h-14 w-14  mt-2 ml-7
+                                    bg-[url(/weatherApp/img/images/humidity.png)] 
+                                    bg-cover bg-center">
+                            
+                                </div>
+                                <h1 class="humidHead text-2xl ml-7"
+                                >Humidity 92%</h1>
+                            </div> 
+                        
+                </div>
+     
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
