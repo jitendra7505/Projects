@@ -16,3 +16,9 @@ Image link: https://github.com/jitendra7505/Projects/blob/54c7e800d0dafbdf01318c
 4. hey here my project 4 which is a simple calculator 
 **** here the link*******
 https://github.com/jitendra7505/Projects/blob/51173a99ef657be119f21826bc15250c5ea8a53c/project4(cal)/project4.png
+
+* here a qr code generator *******
+  ****click the link below ****** 
+https://github.com/jitendra7505/Projects/blob/fd661b5ec8f1d70fc53d53e4196d574adf07e166/QR-generator/qr2.png
+
+https://github.com/jitendra7505/Projects/blob/fd661b5ec8f1d70fc53d53e4196d574adf07e166/QR-generator/qr.png
