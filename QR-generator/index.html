@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/output.css" class="css">
+</head>
+<body class="h-[100vh] bg-slate-950 flex items-center justify-center">
+    <div class="container  md:w-[30vw] w-[80vw] bg-white
+        flex flex-col items-center rounded-2xl space-y-2.5 
+        shadow-lg shadow-green-600">
+        
+        <h1 class="text-3xl font-bold text-slate-900
+        text-shadow-md text-shadow-cyan-300">QR-code Generator</h1>
+        
+        <input type="text" placeholder="Type url/text" 
+        class="inputBar bg-slate-200 md:h-[10vh] md:w-[27vw] 
+            h-[7vh] w-[78vw] border-2
+        rounded border-slate-800 mt-2 text-2xl p-4">
+        
+        <div class="qrbox">
+            <img src="" id="qrImg" class="bg-cover">
+        </div>
+            
+            <button class="generBtn md:h-[10vh] md:w-[9vw] 
+            h-[7vh] w-[33vw] 
+            bg-purple-600 rounded-2xl text-amber-50 text-2xl
+            mb-1.5 shadow-lg shadow-purple-600 
+            cursor-pointer hover:bg-orange-400 
+            hover:shadow-orange-400">Generate</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
