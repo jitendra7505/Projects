@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text-to-voice</title>
+    <link rel="stylesheet" href="/src/output.css" class="css">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+<body class="h-[100vh] bg-linear-80 from-purple-800 to-blue-800
+flex flex-col items-center m-2">
+
+    <h1 class="head md:text-4xl text-3xl  font-semibold 
+    text-amber-50">Text to voice Generator</h1>
+    <textarea  id="textInput" class=" bg-amber-48 backdrop-blur-3xl
+    mt-7 md:h-[40vh] md:w-[50vw] h-[40vh] w-[90vw] rounded-2xl 
+    p-4 text-3xl text-amber-50
+    shadow-lg shadow-black text-shadow-cyan-200 text-shadow-md"></textarea>
+
+    <div class="btmSect md:mt-18  w-[50vw]  md:space-x-20 flex items-center
+        mt-10 md:flex-row flex-col space-y-7 ">
+        <select  id="selectBar" class="md:h-[9vh] md:w-[30vw] bg-amber-48 
+        backdrop-blur-3xl  rounded-l-full shadow-lg shadow-black p-2
+        text-xl text-slate-950 text-shadow-md text-shadow-cyan-300
+        h-[8vh] w-[80vw] md:mt-5"></select>
+        <button class="btn md:h-[11vh] md:w-[13vw] bg-slate-900
+        rounded-full shadow-lg  shadow-cyan-200
+        hover:bg-slate-800 h-[11vh] w-[30vw]
+        text-2xl text-amber-50"><i class="ri-play-fill"></i> Listen</button>
+    </div>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
