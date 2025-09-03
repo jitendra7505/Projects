@@ -22,3 +22,8 @@ https://github.com/jitendra7505/Projects/blob/51173a99ef657be119f21826bc15250c5e
 https://github.com/jitendra7505/Projects/blob/fd661b5ec8f1d70fc53d53e4196d574adf07e166/QR-generator/qr2.png
 
 https://github.com/jitendra7505/Projects/blob/fd661b5ec8f1d70fc53d53e4196d574adf07e166/QR-generator/qr.png
+
+
+**here a Text-to-voice converter
+******click the link below***********
+https://github.com/jitendra7505/Projects/blob/48cb447e1835788577458e2d214cc32ebff90a66/Text-to-voice%20converter/vc.png
