@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primaryColor: #000;
+  --snakeColor: rgb(181, 248, 55);
+  --textColor: #d7cfcf;
+  --foodColor: rgba(225, 21, 21, 0.952);
+}
+
+.screen {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primaryColor);
+  color: var(--textColor);
+}
+
+.pointbar {
+  height: 7vh;
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  padding: 3px;
+  margin-left: 4rem;
+  margin-bottom: 1rem;
+  margin-top: 3px;
+}
+
+.gameOverPoint {
+  color: var(--textColor);
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.box {
+  height: 6vh;
+  width: 10vw;
+  border: 1px solid white;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 2rem;
+}
+
+.board {
+  display: grid;
+  height: 86vh;
+  width: 94vw;
+  margin-left: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(50px, 1fr));
+  border: 1px solid var(--textColor);
+}
+
+.block {
+  background-color: var(--primaryColor);
+  /* border: 1px solid var(--textColor); */
+  border-radius: 50%;
+}
+
+.fill {
+  background-color: var(--snakeColor);
+}
+
+.food {
+  background-color: var(--foodColor);
+  border-radius: 30%;
+}
+
+.snakeHead {
+  background-image: url(/logicGame/snake.png);
+  background-size: cover;
+  background-position: center;
+  transform: rotate(0deg);
+  transition: transform 0.1 linear;
+}
+
+.menuBar {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  gap: 20px;
+  backdrop-filter: blur(4px);
+}
+
+.menuBar .startGame,
+.menuBar .gameOver {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuBar .gameOver {
+  display: none;
+}
+
+.title {
+  color: aliceblue;
+  font-size: 3rem;
+}
+.overTitle {
+  color: aliceblue;
+  font-size: 3rem;
+}
+.strtBtn {
+  height: 8vh;
+  width: 11vw;
+  border-radius: 1rem;
+  background-color: rgb(15, 194, 15);
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #000;
+  cursor: pointer;
+}
+
+.restartBtn {
+  height: 8vh;
+  width: 11vw;
+  border-radius: 1rem;
+  background-color: rgb(15, 194, 15);
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  color: #000;
+  cursor: pointer;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>logicMaster</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="screen">
+      <div class="pointbar">
+        <div class="box" id="highScore">
+          High Score : <span id="setHighScore">0</span>
+        </div>
+        <div class="box" id="score">Score: <span id="setScore">0</span></div>
+        <div class="box" id="timer">
+          Timer : <span id="setTimer">00:00</span>
+        </div>
+      </div>
+
+      <div class="board"></div>
+
+      <div class="menuBar">
+        <div class="startGame">
+          <h1 class="title">Welcome to the Snake game 🐍🐍🐍</h1>
+          <button class="strtBtn">Start</button>
+        </div>
+
+        <div class="gameOver">
+          <h1 class="overTitle">Game Over 😁😁😁</h1>
+          <p class="gameOverPoint">Score: <span id="gameOverScore">0</span></p>
+          <p class="gameOverPoint">
+            High Score: <span id="gameOverHighScore">0</span>
+          </p>
+          <p class="gameOverPoint">
+            Time Played: <span id="gameOverTime">00:00</span>
+          </p>
+          <button class="restartBtn">Restart</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
